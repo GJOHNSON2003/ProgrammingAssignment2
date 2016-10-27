@@ -1,5 +1,5 @@
 ## These two functions check to see if a cached version of
-## an investered matrix already exsits and if so uses the cached
+## an inverted matrix already exsits and if so uses the cached
 ## veriion.  Otherwise it computes the inverse of an inout matrix
 ## and caches it.
 
