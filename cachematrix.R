@@ -1,6 +1,6 @@
 ## These two functions check to see if a cached version of
 ## an inverted matrix already exsits and if so uses the cached
-## veriion.  Otherwise it computes the inverse of an inout matrix
+## veriion.  Otherwise it computes the inverse of an input matrix
 ## and caches it.
 
 makeCacheMatrix <- function(x = matrix()) {
