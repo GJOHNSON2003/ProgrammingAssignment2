@@ -16,8 +16,6 @@ makeCacheMatrix <- function(x = matrix()) {
     
     inv = NULL
     set = function(y) {
-        # use `<<-` to assign a value to an object in an environment 
-        # different from the current environment. 
         x <<- y
         inv <<- NULL
     }
